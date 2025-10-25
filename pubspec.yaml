@@ -1,0 +1,33 @@
+name: task_manager_app
+description: A simple Task Manager Flutter App using local storage
+publish_to: 'none' # Remove this line if you plan to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI icons
+  cupertino_icons: ^1.0.6
+
+  # Local storage for SignIn/SignUp and Tasks
+  shared_preferences: ^2.2.3
+
+  # For launching phone, email, maps links
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Add this only if you have local images (optional)
+  assets:
+    - assets/
